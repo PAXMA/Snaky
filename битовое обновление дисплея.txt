@@ -1,0 +1,53 @@
+;----------------------Битовое Обновление дисплея
+
+Refresh:
+
+ldi r16,0b10000000	;запитываем первый столбец
+out PORTA,r16 		;передаём сигнал
+lds r16, 0x0100		;берём байт из памяти
+out PORTC,r16		;подаём его на выход
+rcall wait1			;задержка
+
+ldi r16,0b01000000	;запитываем второй столбец
+out PORTA,r16 		
+lds r16, 0x0101
+out PORTC,r16	
+rcall wait1
+
+ldi r16,0b00100000	;запитываем третий столбец
+out PORTA,r16 		
+lds r16, 0x0102
+out PORTC,r16
+rcall wait1
+
+ldi r16,0b00010000	;запитываем четвёртый столбец
+out PORTA,r16 		
+lds r16, 0x0103
+out PORTC,r16
+rcall wait1
+
+ldi r16,0b00001000	;запитываем пятый столбец
+out PORTA,r16 		
+lds r16, 0x0104
+out PORTC,r16
+rcall wait1
+
+ldi r16,0b00000100	;запитываем шестой столбец
+out PORTA,r16 		
+lds r16, 0x0105
+out PORTC,r16
+rcall wait1
+
+ldi r16,0b00000010	;запитываем седьмой столбец
+out PORTA,r16 		
+lds r16, 0x0106
+out PORTC,r16
+rcall wait1
+
+ldi r16,0b00000001	;запитываем восьмой столбец
+out PORTA,r16 		
+lds r16, 0x0107
+out PORTC,r16
+rcall wait1
+
+ret

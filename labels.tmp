@@ -1,0 +1,85 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega128</DEVICE>
+ <WORKING_DIR>E:\Google Drive\Bachelor\Snaky</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m128def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Google Drive\Bachelor\Snaky\Snaky.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\Google Drive\Bachelor\Snaky\Snaky.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\Google Drive\Bachelor\Snaky\Snaky.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Direction><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>14</LINE></Direction>
+  <Coords><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>17</LINE></Coords>
+  <Text><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>20</LINE></Text>
+  <Menu_and_Init><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>228</LINE></Menu_and_Init>
+  <Set_Next_Bite><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>240</LINE></Set_Next_Bite>
+  <Menu><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>259</LINE></Menu>
+  <Too_many><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>267</LINE></Too_many>
+  <RefreshBit><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>331</LINE></RefreshBit>
+  <GetMenuButton><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>522</LINE></GetMenuButton>
+  <Menu_Exit><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>290</LINE></Menu_Exit>
+  <Random64><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>571</LINE></Random64>
+  <main><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>300</LINE></main>
+  <Refresh><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>368</LINE></Refresh>
+  <GetButton><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>460</LINE></GetButton>
+  <Skip_Move><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>308</LINE></Skip_Move>
+  <Move><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>595</LINE></Move>
+  <Game_Over><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>316</LINE></Game_Over>
+  <wait2><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>435</LINE></wait2>
+  <Check_if_0><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>339</LINE></Check_if_0>
+  <Skip_adding><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>348</LINE></Skip_adding>
+  <Next_Byte><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>350</LINE></Next_Byte>
+  <wait1><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>411</LINE></wait1>
+  <RefreshBit_Exit><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>359</LINE></RefreshBit_Exit>
+  <Next_Column><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>381</LINE></Next_Column>
+  <Next_bit><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>384</LINE></Next_bit>
+  <Done><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>393</LINE></Done>
+  <Exit_Refresh><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>402</LINE></Exit_Refresh>
+  <loop22><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>417</LINE></loop22>
+  <loop11><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>419</LINE></loop11>
+  <loop222><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>441</LINE></loop222>
+  <loop111><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>443</LINE></loop111>
+  <Exit_GetButton><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>515</LINE></Exit_GetButton>
+  <Up_Down><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>480</LINE></Up_Down>
+  <Left_Right><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>487</LINE></Left_Right>
+  <Button_Left><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>499</LINE></Button_Left>
+  <Button_Right><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>504</LINE></Button_Right>
+  <Button_Up><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>494</LINE></Button_Up>
+  <Button_Down><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>509</LINE></Button_Down>
+  <Set_Exit_GetButton><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>513</LINE></Set_Exit_GetButton>
+  <Exit_GetMenuButton><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>564</LINE></Exit_GetMenuButton>
+  <MenuButton_Left><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>548</LINE></MenuButton_Left>
+  <MenuButton_Right><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>553</LINE></MenuButton_Right>
+  <MenuButton_Up><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>543</LINE></MenuButton_Up>
+  <MenuButton_Down><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>558</LINE></MenuButton_Down>
+  <Exit_Set_GetMenuButton><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>562</LINE></Exit_Set_GetMenuButton>
+  <Try_more><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>575</LINE></Try_more>
+  <Check><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>578</LINE></Check>
+  <Number_is_OK><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>583</LINE></Number_is_OK>
+  <Mass_analyze><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>628</LINE></Mass_analyze>
+  <End_of_mass><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>655</LINE></End_of_mass>
+  <No_food><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>639</LINE></No_food>
+  <Skip_mov><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>645</LINE></Skip_mov>
+  <Move_Up><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>670</LINE></Move_Up>
+  <Move_Left><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>707</LINE></Move_Left>
+  <Move_Right><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>741</LINE></Move_Right>
+  <Move_Down><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>774</LINE></Move_Down>
+  <CrossBoard_Up><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>698</LINE></CrossBoard_Up>
+  <Exit_Move><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>805</LINE></Exit_Move>
+  <CrossBoard_Left><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>732</LINE></CrossBoard_Left>
+  <CrossBoard_Right><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>766</LINE></CrossBoard_Right>
+  <CrossBoard_Down><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>797</LINE></CrossBoard_Down>
+  <No_growth><FILE>E:\Google Drive\Bachelor\Snaky\Snaky.asm</FILE><LINE>816</LINE></No_growth>
+ </LABELS>
+</ASSEMBLER_INFO>
